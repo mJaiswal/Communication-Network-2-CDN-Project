@@ -67,9 +67,10 @@ resolution table (content ID to content file name) can be assumed for simplicity
 • Location of contents might change over time (insertion and deletion of contents at
 different locations).
 
-• Links connecting network elements have a probability of loss equal to p.• The network
-service to be provided has the basic primitive get(content_ID), and should be realized 
-as a packet datagram type design rather than a connection oriented design 
+• Links connecting network elements have a probability of loss equal to p.
+
+• The network service to be provided has the basic primitive get(content_ID), and should 
+be realized as a packet datagram type design rather than a connection oriented design 
 (i.e. the content-ID is explicitly provided in the packet datagram and
 used by the network to route the query).
 
